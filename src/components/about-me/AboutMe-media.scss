@@ -1,0 +1,61 @@
+// Phone Sizes
+
+@media screen and (max-width: 480px) {
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 35px;
+
+        &__title {
+            flex: 1;
+            margin-right: 70px;
+
+            h1 {
+                justify-content: flex-start;
+                font-size: 16px;
+            }
+        }
+
+        &__content {
+            padding: 20px 0 0 20px;
+
+            p {
+                font-weight: 300;
+            }
+        }
+
+        .aboutMe__content__interests {
+            margin-bottom: 50px;
+
+            .aboutMe__interests--bold {
+                font-weight: 600;
+            }
+        }
+
+        &__btn--resume {
+            a {
+                font-size: 18px;
+            }
+
+            img {
+                width: 13px;
+                margin-left: 7px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .aboutMe {
+        &__btn--resume {
+            a {
+                font-size: 17px;
+            }
+
+            img {
+                width: 13px;
+                margin-left: 7px;
+            }
+        }
+    }
+}

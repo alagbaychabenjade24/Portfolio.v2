@@ -1,0 +1,119 @@
+// Tablets & Laptops Sizes
+
+// Phone Sizes
+
+@media screen and (max-width: 480px) {
+    .homepage {
+        height: 100vh;
+        width: 100%;
+        padding: 50px;
+
+        &__greetings {
+            h1 {
+                font-size: 29px;
+            }
+        }
+
+        &__content {
+            h2 {
+                font-size: 29px;
+                width: 100%;
+                margin: 18px 0;
+            }
+        }
+
+        &--getInTouch {
+            p {
+                font-size: 16px;
+
+                a {
+                    padding: 5px 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .homepage {
+        &__greetings {
+            h1 {
+                font-size: 28px;
+            }
+        }
+
+        &__content {
+            h2 {
+                font-size: 28px;
+            }
+        }
+
+        &--getInTouch {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .homepage {
+        &__greetings {
+            h1 {
+                font-size: 24.5px;
+            }
+        }
+
+        &__content {
+            h2 {
+                font-size: 24.5px;
+            }
+        }
+
+        &--getInTouch {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .homepage {
+        &__greetings {
+            h1 {
+                font-size: 22px;
+            }
+        }
+
+        &__content {
+            h2 {
+                font-size: 22px;
+            }
+        }
+
+        &--getInTouch {
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .homepage {
+        padding: 35px 50px;
+
+        &__greetings {
+            h1 {
+                font-size: 20.5px;
+            }
+        }
+
+        &__content {
+            h2 {
+                font-size: 20.5px;
+            }
+        }
+    }
+}

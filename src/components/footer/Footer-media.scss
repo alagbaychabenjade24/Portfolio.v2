@@ -1,0 +1,39 @@
+// Phone Sizes
+
+@media screen and (max-width: 480px) {
+    .footer {
+        flex-direction: column;
+        padding: 50px 30px;
+
+        &__copyright {
+            span {
+                font-size: 16px;
+                margin-bottom: 15px;
+
+                img {
+                    width: 18px;
+                    margin: 0 3px;
+                }
+            }
+        }
+
+        &--btns {
+            display: none;
+        }
+
+        &__small--btns {
+            display: block;
+
+            img {
+                width: 30px;
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright span {
+        font-size: 13px;
+    }
+}

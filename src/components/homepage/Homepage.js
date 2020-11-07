@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Homepage.scss';
+import './Homepage.media.scss';
 
 function Homepage() {
     return (
@@ -11,10 +12,10 @@ function Homepage() {
 
             <div className='homepage__content'>
                 <h2>
-                    I'm <span>Chaben Jade Alagbay</span> a curious front-end
-                    software engineer focused on building beautiful and
-                    optimized apps while staying up-to-date with the latest
-                    trends in tech.
+                    I'm <span>Chaben Alagbay</span>, a curious front-end
+                    software engineer specializing in building (and occasionally
+                    designing) exceptional websites while staying up-to-date
+                    with the latest trends in tech.
                 </h2>
             </div>
 
