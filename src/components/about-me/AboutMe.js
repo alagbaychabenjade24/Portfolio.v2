@@ -13,7 +13,7 @@ function AboutMe() {
 
             <div className='aboutMe__content'>
                 <p className='aboutMe__content__intro'>
-                    I'm currently forming my coding skills. I've also designed
+                    I'm currently improving my coding skills. I've also designed
                     websites as my side projects to enhance my knowledge to
                     write readable code and improve my design skills since I'm
                     specializing in front-end development.
