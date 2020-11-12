@@ -27,7 +27,7 @@ function Homepage() {
 						target='_blank'
 						rel='noreferrer'
 					>
-						hello@chabenalagbay.dev
+						alagbaychabenjade24@gmail.com
 					</a>
 				</p>
 			</div>

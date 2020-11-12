@@ -1,5 +1,6 @@
 import React from 'react';
 import blueArrow from './blue-arrow.png';
+import CJRes from './CJRes.pdf';
 
 import './AboutMe.scss';
 import './AboutMe-media.scss';
@@ -42,11 +43,7 @@ function AboutMe() {
 				</p>
 
 				<div className='aboutMe__btn--resume'>
-					<a
-						href='https://drive.google.com/file/d/1OpS2XfM_Oup72Ib_llwEgMNA2SioH4nT/view?usp=sharing'
-						target='_blank'
-						rel='noreferrer'
-					>
+					<a href={CJRes} target='_blank' rel='noreferrer'>
 						View My Resume <img src={blueArrow} alt='blue arrow' />
 					</a>
 				</div>
