@@ -1,91 +1,237 @@
 // Tablet and Laptop Sizes
 
+@media screen and (max-width: 2560px) {
+	.aboutMe {
+		padding: 100px 170px;
+
+		&__title {
+			margin-right: 70px;
+
+			h1 {
+				font-size: 23px;
+				width: 100%;
+			}
+		}
+
+		&__content {
+			p {
+				font-size: 22px;
+				line-height: 1.7;
+				margin-bottom: 25px;
+			}
+		}
+
+		&__btn--resume {
+			a {
+				font-size: 23px;
+			}
+
+			img {
+				width: 15px;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.aboutMe {
+		padding: 100px 170px;
+
+		&__title {
+			margin-right: 70px;
+
+			h1 {
+				font-size: 17px;
+				width: 100%;
+			}
+		}
+
+		&__content {
+			p {
+				font-size: 16px;
+				line-height: 1.7;
+				margin-bottom: 25px;
+			}
+		}
+
+		&__btn--resume {
+			a {
+				font-size: 17px;
+			}
+
+			img {
+				width: 15px;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.aboutMe {
+		padding: 50px;
+
+		&__title {
+			margin-right: 50px;
+
+			h1 {
+				font-size: 22px;
+				width: 100%;
+			}
+		}
+
+		&__content {
+			p {
+				font-size: 21px;
+				line-height: 1.7;
+				margin-bottom: 25px;
+			}
+		}
+
+		&__btn--resume {
+			a {
+				font-size: 22px;
+			}
+
+			img {
+				width: 15px;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.aboutMe {
+		flex-direction: column;
+		padding: 50px 35px;
+
+		&__title {
+			h1 {
+				font-size: 21px;
+				justify-content: flex-start;
+			}
+		}
+
+		&__content {
+			padding: 20px 0 0 20px;
+
+			p {
+				font-size: 20px;
+				font-weight: 400;
+			}
+		}
+
+		&__btn--resume {
+			a {
+				font-size: 21px;
+			}
+
+			img {
+				width: 15px;
+				margin-left: 7px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.aboutMe {
+		flex-direction: column;
+		padding: 50px 35px;
+
+		&__title {
+			h1 {
+				font-size: 21px;
+				justify-content: flex-start;
+			}
+		}
+
+		&__content {
+			padding: 20px 0 0 20px;
+
+			p {
+				font-size: 20px;
+				font-weight: 400;
+			}
+		}
+
+		&__btn--resume {
+			a {
+				font-size: 21px;
+			}
+
+			img {
+				width: 15px;
+				margin-left: 7px;
+			}
+		}
+	}
+}
+
 // Phone Sizes
 
 @media screen and (max-width: 480px) {
-    .aboutMe {
-        flex-direction: column;
-        padding: 50px 35px;
-
-        &__title {
-            h1 {
-                font-size: 21px;
-                justify-content: flex-start;
-            }
-        }
-
-        &__content {
-            padding: 20px 0 0 20px;
-
-            p {
-                font-size: 20px;
-                font-weight: 400;
-            }
-        }
-
-        &__btn--resume {
-            a {
-                font-size: 21px;
-            }
-
-            img {
-                width: 15px;
-                margin-left: 7px;
-            }
-        }
-    }
+	.aboutMe {
+		&__content {
+			p {
+				font-size: 19px;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 414px) {
-    .aboutMe {
-        &__title {
-            h1 {
-                font-size: 18px;
-            }
-        }
+	.aboutMe {
+		&__title {
+			h1 {
+				font-size: 18px;
+			}
+		}
 
-        &__content {
-            padding: 20px 0 0 20px;
+		&__content {
+			padding: 20px 0 0 20px;
 
-            p {
-                font-size: 17px;
-            }
-        }
+			p {
+				font-size: 17px;
+			}
+		}
 
-        &__btn--resume {
-            a {
-                font-size: 18px;
-            }
+		&__btn--resume {
+			a {
+				font-size: 18px;
+			}
 
-            img {
-                width: 15px;
-            }
-        }
-    }
+			img {
+				width: 15px;
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 380px) {
-    .aboutMe {
-        &__title {
-            h1 {
-                font-size: 17px;
-            }
-        }
+	.aboutMe {
+		&__title {
+			h1 {
+				font-size: 17px;
+			}
+		}
 
-        &__content {
-            p {
-                font-size: 16px;
-            }
-        }
+		&__content {
+			p {
+				font-size: 16px;
+			}
+		}
 
-        &__btn--resume {
-            a {
-                font-size: 17px;
-            }
+		&__btn--resume {
+			a {
+				font-size: 17px;
+			}
 
-            img {
-                width: 13px;
-            }
-        }
-    }
+			img {
+				width: 13px;
+			}
+		}
+	}
 }

@@ -1,73 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .aboutMe {
-    display: flex;
-    padding: 100px 170px;
+	display: flex;
+	padding: 100px 170px;
 
-    &__title {
-        flex: 1;
-        margin-right: 70px;
+	&__title {
+		flex: 1;
+		margin-right: 70px;
 
-        h1 {
-            display: flex;
-            justify-content: flex-end;
-            font-family: 'Gothic A1', sans-serif;
-            font-size: 16px;
-            font-weight: 900;
-            color: #007bff;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-            width: 100%;
-        }
-    }
+		h1 {
+			display: flex;
+			justify-content: flex-end;
+			font-family: 'Gothic A1', sans-serif;
+			font-size: 16px;
+			font-weight: 900;
+			color: #007bff;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			width: 100%;
+		}
+	}
 
-    &__content {
-        flex: 3;
+	&__content {
+		flex: 3;
 
-        p {
-            font-weight: 400;
-            color: #444452;
-            line-height: 1.7;
-            margin-bottom: 25px;
-        }
-    }
+		p {
+			font-weight: 400;
+			color: #444452;
+			line-height: 1.7;
+			margin-bottom: 25px;
+		}
+	}
 
-    .aboutMe__content__interests {
-        margin-bottom: 70px;
+	.aboutMe__content__interests {
+		margin-bottom: 70px;
 
-        .aboutMe__interests--bold {
-            font-weight: 700;
-            color: #36363c;
-        }
-    }
+		.aboutMe__interests--bold {
+			font-weight: 700;
+			color: #36363c;
+		}
+	}
 
-    &__btn--resume {
-        a {
-            font-size: 20px;
-            font-weight: 700;
-            color: #36363c;
-            text-decoration: none;
-        }
+	&__btn--resume {
+		a {
+			font-size: 20px;
+			font-weight: 700;
+			color: #36363c;
+			text-decoration: none;
+		}
 
-        img {
-            width: 15px;
-            margin-left: 10px;
-        }
+		img {
+			width: 15px;
+			margin-left: 10px;
+		}
 
-        &:hover {
-            animation-name: moveRight;
-            animation-duration: 1s;
-            animation-fill-mode: forwards;
-        }
-    }
+		&:hover {
+			animation-name: moveRight;
+			animation-duration: 1s;
+			animation-fill-mode: forwards;
+		}
+	}
 }
 
 @keyframes moveRight {
-    from {
-        transform: translateX(0);
-    }
+	from {
+		transform: translateX(0);
+	}
 
-    to {
-        transform: translateX(15px);
-    }
+	to {
+		transform: translateX(15px);
+	}
 }
