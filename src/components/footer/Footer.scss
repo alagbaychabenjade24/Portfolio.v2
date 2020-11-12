@@ -1,54 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .footer {
-    font-family: 'Gothic A1', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 80px;
+	font-family: 'Gothic A1', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 80px;
 
-    &__copyright {
-        .top {
-            span {
-                font-weight: 700;
-                color: #444452;
-            }
-        }
+	&__copyright {
+		.top {
+			span {
+				font-weight: 700;
+				color: #444452;
+			}
+		}
 
-        .bottom {
-            .name {
-                a {
-                    font-weight: 700;
-                    text-decoration: none;
-                    color: #444452;
-                    transition: 0.2s ease-in-out;
+		.bottom {
+			.name {
+				a {
+					font-weight: 700;
+					text-decoration: none;
+					color: #444452;
+					transition: 0.2s ease-in-out;
 
-                    &:hover {
-                        padding-bottom: 3px;
-                        border-bottom: 2px solid #444452;
-                    }
-                }
-            }
-        }
-    }
+					&:hover {
+						padding-bottom: 3px;
+						border-bottom: 2px solid #444452;
+					}
+				}
+			}
+		}
+	}
 
-    &--btns {
-        a {
-            font-size: 16px;
-            font-weight: 700;
-            letter-spacing: 0.7px;
-            color: #0096ff;
-            text-decoration: none;
-            transition: 0.2s ease-in-out;
+	&--btns {
+		a {
+			font-size: 16px;
+			font-weight: 700;
+			letter-spacing: 0.7px;
+			color: #0096ff;
+			text-decoration: none;
+			transition: 0.2s ease-in-out;
 
-            &:nth-child(even) {
-                margin: 0 50px;
-            }
+			&:nth-child(even) {
+				margin: 0 50px;
+			}
 
-            &:hover {
-                padding-bottom: 3px;
-                border-bottom: 2px solid #0096ff;
-            }
-        }
-    }
+			&:hover {
+				padding-bottom: 3px;
+				border-bottom: 2px solid #0096ff;
+			}
+		}
+	}
 }

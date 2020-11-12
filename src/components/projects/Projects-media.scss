@@ -251,6 +251,8 @@
 
 					&--buttons {
 						font-size: 17px;
+						display: flex;
+						flex-direction: row;
 
 						span {
 							padding: 5px;
