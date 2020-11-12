@@ -1,149 +1,430 @@
+// Tablet & Laptop Sizes
+
+@media screen and (max-width: 2560px) {
+	.projects {
+		display: flex;
+		padding: 100px;
+
+		&__title {
+			flex: 1;
+			margin-right: 70px;
+
+			h1 {
+				font-size: 23px;
+				font-weight: 900;
+				color: #007bff;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				width: 100%;
+			}
+		}
+
+		&__items {
+			flex: 3;
+
+			.project__item {
+				display: flex;
+
+				&:not(:last-child) {
+					margin-bottom: 100px;
+				}
+
+				img {
+					width: 650px;
+				}
+
+				&__content {
+					margin-left: 30px;
+
+					a {
+						color: #444452;
+						text-decoration: none;
+
+						h3 {
+							font-size: 20px;
+						}
+					}
+
+					p {
+						font-size: 17px;
+						color: #444452;
+						margin: 25px 0;
+					}
+
+					&--buttons {
+						font-size: 16px;
+
+						span {
+							font-weight: 600;
+							color: #007bff;
+							border: 1px solid #007bff;
+							border-radius: 3px;
+							padding: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.projects {
+		display: flex;
+		padding: 100px;
+
+		&__title {
+			flex: 1;
+			margin-right: 70px;
+
+			h1 {
+				font-size: 17px;
+				font-weight: 900;
+				color: #007bff;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				width: 100%;
+			}
+		}
+
+		&__items {
+			flex: 3;
+
+			.project__item {
+				display: flex;
+
+				&:not(:last-child) {
+					margin-bottom: 100px;
+				}
+
+				img {
+					width: 650px;
+				}
+
+				&__content {
+					margin-left: 30px;
+
+					a {
+						color: #444452;
+						text-decoration: none;
+
+						h3 {
+							font-size: 16px;
+						}
+					}
+
+					p {
+						font-size: 14px;
+						color: #444452;
+						margin: 25px 0;
+					}
+
+					&--buttons {
+						font-size: 12px;
+						display: flex;
+						flex-direction: column;
+
+						span {
+							font-weight: 600;
+							color: #007bff;
+							border: 1px solid #007bff;
+							border-radius: 3px;
+							padding: 5px;
+						}
+
+						a:nth-child(1) {
+							margin: 0 0 15px 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.projects {
+		&__items {
+			.project__item {
+				img {
+					width: 590px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.projects {
+		display: flex;
+		padding: 50px;
+
+		&__title {
+			flex: 1;
+			margin-right: 50px;
+
+			h1 {
+				display: flex;
+				justify-content: flex-end;
+				font-size: 22px;
+				width: 100%;
+			}
+		}
+
+		&__items {
+			flex: 3;
+
+			.project__item {
+				display: flex;
+
+				img {
+					width: 530px;
+				}
+
+				&__content {
+					margin-left: 20px;
+
+					a {
+						h3 {
+							font-size: 16px;
+						}
+					}
+
+					p {
+						font-size: 14px;
+						margin: 25px 0;
+					}
+
+					&--buttons {
+						font-size: 12px;
+
+						span {
+							padding: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.projects {
+		display: flex;
+		flex-direction: column;
+		padding: 50px;
+
+		&__title {
+			flex: 1;
+			margin-right: 70px;
+
+			h1 {
+				justify-content: flex-start;
+				font-size: 21px;
+			}
+		}
+
+		&__items {
+			padding: 30px 0 0 50px;
+
+			.project__item {
+				flex-direction: column;
+
+				img {
+					width: 600px;
+				}
+
+				&__content {
+					margin-left: 30px;
+
+					a {
+						h3 {
+							font-size: 21px;
+							margin-top: 10px;
+						}
+					}
+
+					p {
+						font-size: 20px;
+						margin: 25px 0;
+					}
+
+					&--buttons {
+						font-size: 17px;
+
+						span {
+							padding: 5px;
+						}
+
+						a:nth-child(1) {
+							margin-right: 7px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.projects {
+		&__items {
+			.project__item {
+				img {
+					width: 450px;
+				}
+			}
+		}
+	}
+}
+
 // Phone Sizes
 
 @media screen and (max-width: 480px) {
-    .projects {
-        flex-direction: column;
-        padding: 50px 35px;
+	.projects {
+		flex-direction: column;
+		padding: 50px 35px;
 
-        &__title {
-            h1 {
-                justify-content: flex-start;
-                font-size: 21px;
-            }
-        }
+		&__title {
+			h1 {
+				justify-content: flex-start;
+				font-size: 21px;
+			}
+		}
 
-        &__items {
-            .project__item {
-                flex-direction: column;
-                padding: 30px 0 0 20px;
+		&__items {
+			padding: 30px 0 0 30px;
 
-                &:not(:last-child) {
-                    margin-bottom: 70px;
-                }
+			.project__item {
+				flex-direction: column;
 
-                img {
-                    width: 380px;
-                }
+				&:not(:last-child) {
+					margin-bottom: 70px;
+				}
 
-                &__content {
-                    margin: 20px 0 0 0;
+				img {
+					width: 380px;
+				}
 
-                    a {
-                        h3 {
-                            font-size: 21px;
-                        }
-                    }
+				&__content {
+					margin: 20px 0 0 0;
 
-                    p {
-                        font-size: 20px;
-                        margin: 20px 0 25px;
-                    }
+					a {
+						h3 {
+							font-size: 21px;
+						}
+					}
 
-                    &--buttons {
-                        font-size: 17px;
+					p {
+						font-size: 20px;
+						margin: 20px 0 25px;
+					}
 
-                        span {
-                            padding: 5px 9px;
-                        }
-                    }
-                }
-            }
-        }
-    }
+					&--buttons {
+						font-size: 17px;
+
+						span {
+							padding: 5px 9px;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 414px) {
-    .projects {
-        &__title {
-            h1 {
-                font-size: 18px;
-            }
-        }
+	.projects {
+		&__title {
+			h1 {
+				font-size: 18px;
+			}
+		}
 
-        &__items {
-            .project__item {
-                img {
-                    width: 314px;
-                }
+		&__items {
+			.project__item {
+				img {
+					width: 314px;
+				}
 
-                &__content {
-                    a {
-                        h3 {
-                            font-size: 18px;
-                        }
-                    }
+				&__content {
+					a {
+						h3 {
+							font-size: 18px;
+						}
+					}
 
-                    p {
-                        font-size: 17px;
-                    }
+					p {
+						font-size: 17px;
+					}
 
-                    &--buttons {
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-    }
+					&--buttons {
+						font-size: 14px;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 380px) {
-    .projects {
-        &__title {
-            h1 {
-                font-size: 17px;
-            }
-        }
+	.projects {
+		&__title {
+			h1 {
+				font-size: 17px;
+			}
+		}
 
-        &__items {
-            .project__item {
-                img {
-                    width: 275px;
-                }
+		&__items {
+			.project__item {
+				img {
+					width: 275px;
+				}
 
-                &__content {
-                    a {
-                        h3 {
-                            font-size: 17px;
-                        }
-                    }
+				&__content {
+					a {
+						h3 {
+							font-size: 17px;
+						}
+					}
 
-                    p {
-                        font-size: 16px;
-                    }
+					p {
+						font-size: 16px;
+					}
 
-                    &--buttons {
-                        font-size: 13px;
-                    }
-                }
-            }
-        }
-    }
+					&--buttons {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media screen and (max-width: 360px) {
-    .projects__items .project__item img {
-        width: 260px;
-    }
+	.projects__items .project__item img {
+		width: 260px;
+	}
 }
 
 @media screen and (max-width: 320px) {
-    .projects {
-        &__items {
-            .project__item {
-                img {
-                    width: 220px;
-                }
+	.projects {
+		&__items {
+			.project__item {
+				img {
+					width: 220px;
+				}
 
-                &__content {
-                    p {
-                        font-size: 16px;
-                    }
+				&__content {
+					p {
+						font-size: 16px;
+					}
 
-                    &--buttons {
-                        font-size: 13px;
-                    }
-                }
-            }
-        }
-    }
+					&--buttons {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+	}
 }
